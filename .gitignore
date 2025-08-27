@@ -1,0 +1,48 @@
+# ---- Build outputs ----
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.out
+
+# ---- Compiler intermediates ----
+*.o
+*.obj
+*.d
+*.crf
+*.htm
+*.lnp
+*.sct
+*.dep
+*.rtebuild
+*.rtexport
+*.pack
+
+# ---- Keil project auto-files ----
+*.uvguix.*
+*.uvopt.*
+*.uvoptx
+*.uvguix
+*.scvd
+
+# ---- STM32CubeMX auto-generated build dirs ----
+/Debug/
+/Release/
+/build/
+/Objects/
+/Listings/
+
+# ---- Keil RTE (Run-Time Environment) ----
+/RTE/
+*.rteconfig.bak
+
+# ---- Logs & backups ----
+*.log
+*.bak
+*.tmp
+
+# ---- OS / IDE junk ----
+.DS_Store
+Thumbs.db
